@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import AppHeader from './AppHeader';
 import AppBody from './AppBody';
 import ButtonsLayer from './ButtonsLayer';
@@ -22,7 +21,6 @@ class App extends React.Component{
     }
 
     render(){
-        const props = this.props;
         const body = this.state.body;
         return(
             <div>

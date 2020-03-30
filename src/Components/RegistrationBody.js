@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import styled from 'styled-components';
 
 
@@ -89,22 +88,25 @@ class RegistrationBody extends React.Component{
     }
 
     addUser(firstName, lastName, login, haslo){
-        if(this.state.password==this.state.password2){
-            
-             console.log("ffffffffffff" + this.state.firstName);
-            
-             
-            this.addUserToDb()
-            .then(
-                this.setState({ password2: "", password: "", login: "", firstName: "", lastName: "" })
-            )
-
-              
+        if(this.state.firstName=="" || this.state.lastName == "" || this.state.login == "" || this.state.password=="" || this.state.password2==""){
+            this.setState({info: 'Wszystkie pola muszą być uzupełnione'});
         }
         else{
-            this.setState({info: 'Oba hasła muszą byc takie same'})
-            this.setState({ password2: "", password: ""})
+            if(this.state.password==this.state.password2){
+            
+                this.addUserToDb()
+                .then(
+                    this.setState({ password2: "", password: "", login: "", firstName: "", lastName: "" })
+                )
+    
+                  
+            }
+            else{
+                this.setState({info: 'Oba hasła muszą byc takie same'})
+                this.setState({ password2: "", password: ""})
+            }
         }
+        
         
         
     }
@@ -132,7 +134,6 @@ class RegistrationBody extends React.Component{
         .then(json => console.log(json));
     }
     render(){
-        const props = this.props;
         return(
             <div>
                 <Table>
@@ -142,7 +143,7 @@ class RegistrationBody extends React.Component{
                                 <Text>IMIĘ:</Text>
                             </Td>
                             <Td>
-                                <Input required value={this.state.firstName} onChange={this.handleChangeFirstName}></Input> 
+                                <Input required value={this.state.firstName} onChange={this.handleChangeFirstName}d></Input> 
                             </Td>
                         </Tr>
                         <Tr>

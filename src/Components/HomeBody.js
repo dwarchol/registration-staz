@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import styled from 'styled-components'
 
 
@@ -23,7 +22,6 @@ const Text3 = styled.h3`
 class HomeBody extends React.Component{
     
     render(){
-        const props = this.props;
         return(
             <div>
             <Text1>Miłego dnia :D</Text1>

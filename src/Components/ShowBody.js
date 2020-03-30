@@ -1,6 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import styled from 'styled-components';
 import UsersList from './UsersList'
 
 class ShowBody extends React.Component{

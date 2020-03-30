@@ -1,7 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import styled from 'styled-components';
-import App from './App';
 
 const Wraper = styled.section`
     padding: 0.1em;
@@ -37,12 +35,5 @@ class ButtonsLayer extends React.Component{
         
         
     }
-}
-
-function fun(){
-        return(
-            <App type = "body1"></App>
-        )
-    
 }
 export default ButtonsLayer;
