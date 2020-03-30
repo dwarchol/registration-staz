@@ -96,7 +96,8 @@ class RegistrationBody extends React.Component{
             
                 this.addUserToDb()
                 .then(
-                    this.setState({ password2: "", password: "", login: "", firstName: "", lastName: "" })
+                    this.setState({ password2: "", password: "", login: "", firstName: "", lastName: "" }),
+                    alert("Zarejestrowano!")
                 )
     
                   
@@ -127,8 +128,7 @@ class RegistrationBody extends React.Component{
                 JSON.stringify(data)
         };
         console.log(options);
-        //fetch("http://localhost:4000/registration", options)
-        
+
          fetch("https://fast-atoll-84608.herokuapp.com/registration", options)
         .then(response => response.json())
         .then(json => console.log(json));

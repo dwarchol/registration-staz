@@ -10,12 +10,6 @@ const Tr = styled.tr`
 `
 
 class UsersList extends React.Component {
-//     userToUserItem = user => {
-//     const id = user.id;
-//     const firstName = user.firstName;
-//     const lastName = user.lastName;
-//     return <UserItem id={id} firstName={firstName} lastName={lastName} />;
-//   };
 
   render() {
       const users = this.props.users;
@@ -38,13 +32,7 @@ class UsersList extends React.Component {
       </tbody>
     </Table>
       );
-      
-      
-      
-      
-    //   users.map((userToUserItem) =>
-    //   <UserItem key={userToUserItem.id} id={userToUserItem.id} firstName={userToUserItem.firstName} lastName={userToUserItem.lastName}/>
-    //   );
+
     return (
       <ul className="ui relaxed divided list selection">
        {listUsers}
