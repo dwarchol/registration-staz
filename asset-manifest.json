@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/registration_staz/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/registration_staz/static/js/main.934aa66f.chunk.js",
-    "main.js.map": "/registration_staz/static/js/main.934aa66f.chunk.js.map",
+    "main.js": "/registration_staz/static/js/main.97332cda.chunk.js",
+    "main.js.map": "/registration_staz/static/js/main.97332cda.chunk.js.map",
     "runtime-main.js": "/registration_staz/static/js/runtime-main.a6801457.js",
     "runtime-main.js.map": "/registration_staz/static/js/runtime-main.a6801457.js.map",
     "static/js/2.6172fcc5.chunk.js": "/registration_staz/static/js/2.6172fcc5.chunk.js",
     "static/js/2.6172fcc5.chunk.js.map": "/registration_staz/static/js/2.6172fcc5.chunk.js.map",
     "index.html": "/registration_staz/index.html",
-    "precache-manifest.b5fe5d1466f9779d00a00e871c1207c5.js": "/registration_staz/precache-manifest.b5fe5d1466f9779d00a00e871c1207c5.js",
+    "precache-manifest.14d53ba4fc9157efa6414bd91ba2b213.js": "/registration_staz/precache-manifest.14d53ba4fc9157efa6414bd91ba2b213.js",
     "service-worker.js": "/registration_staz/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/registration_staz/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.6172fcc5.chunk.js.LICENSE.txt": "/registration_staz/static/js/2.6172fcc5.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a6801457.js",
     "static/js/2.6172fcc5.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.934aa66f.chunk.js"
+    "static/js/main.97332cda.chunk.js"
   ]
 }

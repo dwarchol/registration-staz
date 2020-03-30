@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/registration_staz/precache-manifest.b5fe5d1466f9779d00a00e871c1207c5.js"
+  "/registration_staz/precache-manifest.14d53ba4fc9157efa6414bd91ba2b213.js"
 );
 
 self.addEventListener('message', (event) => {
