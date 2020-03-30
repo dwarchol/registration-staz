@@ -35,14 +35,17 @@ const Text = styled.h1`
     margin-left: 10em;
     font-size: 1.5em;
     margin-top: 3em;
+
 `
-const Td = styled.th`
+const Td = styled.td`
     text-align: right;
+
 `
 const Table = styled.table`
     margin-top: 3em;
 `
 const Tr = styled.tr`
+border: 1px solid black;
 `
 const Button = styled.button`
 background-color:#2dabf9;
